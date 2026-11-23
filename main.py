@@ -3,14 +3,14 @@
 Writes one original funny line about everyday life to
 ``$MAKEFUN_OUTPUT_DIR/entry.txt`` (default ``/output``).
 Python 3.13 standard library only; no network, no randomness.
+
+The line (130 characters, one sentence): an inbox finally cleaned,
+and the only email left is the reminder you sent yourself.
 """
 
 import os
 
-LINE = (
-    "I finally cleaned out my inbox, and the only email left was one I sent "
-    "myself three years ago, reminding me to clean out my inbox."
-)
+LINE = "I finally cleaned out my inbox, and the only email left was one I sent myself three years ago, reminding me to clean out my inbox."
 
 
 def main() -> None:
